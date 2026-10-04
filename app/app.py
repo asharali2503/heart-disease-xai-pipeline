@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from app.utils import load_model, get_shap_explainer, get_model_coefficients, convert_inputs_to_df, plot_shap_waterfall
+from utils import load_model, get_shap_explainer, get_model_coefficients, convert_inputs_to_df, plot_shap_waterfall
 from src.explainability import explain_prediction
 
 st.set_page_config(page_title="Heart Disease Prediction", layout="wide")
