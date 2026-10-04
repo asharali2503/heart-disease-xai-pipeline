@@ -146,7 +146,7 @@ with tab3:
     | Random Forest | 86% | 85% | 0.90 |
     | XGBoost | 88% | 89% | 0.92 |
     
-    XGBoost was selected for the final production pipeline because it achieved the highest Recall across all validation folds, minimizing deadly False Negatives without overfitting.
+    XGBoost was selected for the final End-to-End Clinical Prototype because it achieved the highest Recall across all validation folds, minimizing deadly False Negatives without overfitting.
     
     ### Final Test Set Evaluation
     The finalized model achieved the following on the untouched test set:

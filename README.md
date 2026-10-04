@@ -73,6 +73,11 @@ This project treats explainability as a first-class citizen:
 * **Global Interpretability:** Calculates and displays explicit Odds Ratios ($e^{\beta}$) derived from the finalized pipeline, illustrating the population-wide impact of features like Asymptomatic Chest Pain or Number of Major Vessels (`ca`).
 * **Local Interpretability (SHAP):** Utilizes `shap.LinearExplainer` on the transformed background training data to generate Waterfall and Bar plots. This empowers reviewers to see precisely how many log-odds points a specific patient's resting blood pressure or age contributed to their final risk score.
 
+## Limitations & Ethical Considerations
+* **Dataset Limitations:** The UCI dataset is historically valuable for benchmarking, but it is limited in size and demographic diversity.
+* **External Validation:** The model requires external validation on modern, diverse patient cohorts before any consideration of real-world applicability.
+* **Temporal Drift:** The current prototype does not account for temporal data drift or evolving diagnostic criteria in modern clinical populations.
+
 ## 📂 Project Structure
 
 ```text
