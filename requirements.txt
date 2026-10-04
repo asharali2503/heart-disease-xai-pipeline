@@ -3,8 +3,8 @@ ucimlrepo==0.0.7
 pytest==9.1.1
 scikit-learn==1.9.1
 xgboost==3.4.1
-shap
-matplotlib
-streamlit
-seaborn
-jupyter
+shap==0.52.0
+matplotlib==3.11.2
+streamlit==1.65.0
+seaborn==0.13.2
+jupyter==1.1.1
