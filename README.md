@@ -2,7 +2,7 @@
 
 **🔴 Live Application:** [https://ashar-heart-xai.streamlit.app](https://ashar-heart-xai.streamlit.app)
 
-![SHAP Explainability Dashboard Screenshot](screenshot.png)
+![SHAP Local Explanation Chart showing risk factors](screenshot.png)
 
 ![Python](https://img.shields.io/badge/Python-3.14+-blue.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.30+-FF4B4B.svg)
@@ -105,4 +105,21 @@ This project treats explainability as a first-class citizen:
 ├── requirements.txt               # Project dependencies
 ├── .gitignore                     # Standard Python/Jupyter/Git ignores
 └── README.md                      # Project documentation (You are here)
+```
+
+
+## How to Run Locally
+
+If you'd like to run this project on your own machine, follow these standard terminal commands:
+
+```bash
+# Clone the repository
+git clone https://github.com/asharali2503/heart-disease-xai-pipeline.git
+cd heart-disease-xai-pipeline
+
+# Install the required dependencies
+pip install -r requirements.txt
+
+# Run the Streamlit web application
+streamlit run app/app.py
 ```
