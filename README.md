@@ -1,5 +1,9 @@
 # Heart Disease Prediction — Explainable Machine Learning
 
+**🔴 Live Application:** [https://ashar-heart-xai.streamlit.app](https://ashar-heart-xai.streamlit.app)
+
+![SHAP Explainability Dashboard Screenshot](screenshot.png)
+
 ![Python](https://img.shields.io/badge/Python-3.14+-blue.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.30+-FF4B4B.svg)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.9+-F7931E.svg)
