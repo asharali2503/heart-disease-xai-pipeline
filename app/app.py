@@ -1,3 +1,7 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 import streamlit as st
 import pandas as pd
 from utils import load_model, get_shap_explainer, get_model_coefficients, convert_inputs_to_df, plot_shap_waterfall
